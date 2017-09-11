@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hamza/.conan/data/Hello/0.1/hamzaz/release/package/75afd4a5a43dc297f65bd5338e9887b268cb97ba/include/hello.h
+
+/home/hamza/sources/conan-webinar/appveyor-integration/conan-appveyor/test_package/example.cpp
+iostream
+-
+hello.h
+/home/hamza/sources/conan-webinar/appveyor-integration/conan-appveyor/test_package/hello.h
+
